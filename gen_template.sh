@@ -28,7 +28,7 @@ cd $repo_name
 git init -b main
 git add .
 git commit -m "first commit"
-gh repo create --source . --public --push
+gh repo create --source . --public --remote origin --push
 
 echo "# $repo_name\n\nWebserver module $repo_name ($bp_name)" > README.md
 
