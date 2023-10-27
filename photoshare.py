@@ -2,7 +2,7 @@ from flask import request
 
 import tools
 
-bp = tools.MyBlueprint("BP_NAME", "REPO_NAME", host="DOMAIN")
+bp = tools.MyBlueprint("photos", "photoshare", host="photoshare.act25.com")
 
 @bp.route("/")
 @bp.route("/home")
