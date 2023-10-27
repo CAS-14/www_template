@@ -1,3 +1,3 @@
-# www_template
+# photoshare
 
-Template for my web server "modules"
+Share photos with your friends and family
